@@ -80,15 +80,20 @@
 <!-- Footer -->
 <footer class="navbar navbar-dark bg-dark fixed-bottom">
   <!-- Navbar content -->
-  <a class="color-white" href="../user/profile.html">
+  <a class="color-white" routerLink="/user/{{uid}}">
     <i class="fas fa-play"></i>
   </a>
 
   <div class="sw-90-width">
-    <a class="float-left color-white" href="#"> <i class="fas fa-eye"></i> </a>
+    <a
+      class="float-left color-white"
+      routerLink="/user/{{uid}}/website/{{wid}}/page/{{pid}}/widget"
+    >
+      <i class="fas fa-eye"></i>
+    </a>
   </div>
 
-  <a class="color-white float-right" href="../user/profile.html">
+  <a class="color-white float-right" routerLink="/user/{{uid}}">
     <i class="fas fa-user"></i>
   </a>
 </footer>

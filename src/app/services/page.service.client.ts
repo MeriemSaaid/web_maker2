@@ -10,7 +10,10 @@ export class PageService {
     { id: "456", name: "Post 3", title: "Lorem", websiteId: "678" },
     { id: "567", name: "Post 4", title: "Lorem", websiteId: "789" },
     { id: "789", name: "Post 5", title: "Lorem", websiteId: "890" },
-    { id: "910", name: "Post 6", title: "Lorem", websiteId: "456" }
+    { id: "910", name: "Post 6", title: "Lorem", websiteId: "456" },
+    { id: "911", name: "Post 7", title: "Lorem", websiteId: "123" },
+    { id: "912", name: "Post 8", title: "Lorem", websiteId: "123" },
+    { id: "913", name: "Post 9", title: "Lorem", websiteId: "234" }
   ];
   //Function to create a page
   createPage(page: Page) {
